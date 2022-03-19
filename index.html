@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filters thumbnail gallery</title>
+    <link rel='preconnect' href='https://fonts.googleapis.com' />
+    <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+    <link href='https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap' rel='stylesheet' />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="thumbnail-gallery container">
+        <h2 class="thumbnail-gallery__title">gallery</h2>
+        <div class="thumbnail-gallery__categories"></div>
+        <div class="thumbnail-gallery__cards"></div>
+    </section>
+    
+    <template id="thumbnail-gallery-card">
+        <div class="thumbnail-gallery__card">
+            <a href="" class="thumbnail-gallery__card-link">
+                <div class="thumbnail-gallery__card-inner">
+                    <div class="thumbnail-gallery__card-shadow"></div>
+                    <img src="" alt="" class="thumbnail-gallery__card-img">
+                </div>
+            </a>
+            <a href="" class="thumbnail-gallery__card-link">
+                <div class="thumbnail-gallery__card-text-section">
+                    <p class="thumbnail-gallery__card-title"></p>
+                    <p class="thumbnail-gallery__card-category"></p>
+                </div>
+            </a>
+        </div>
+    </template>
+   
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
